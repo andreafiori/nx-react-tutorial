@@ -1,4 +1,6 @@
-# Reactapps
+# Angular Nx, React workspace 
+
+Tutorial of a Nx workspace with a React frontend app and an ExpressJS backend API.
 
 This project was generated using [Nx](https://nx.dev).
 
@@ -74,3 +76,8 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## TODO
+
+- Fix test errors (fetch mock etc.)
+- Add an input text to add tasks

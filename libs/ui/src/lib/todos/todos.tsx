@@ -6,9 +6,9 @@ import './todos.scss';
 export const Todos = (props: { todos: Todo[] }) => {
   return (
     <ul>
-      {props.todos.map(t => (
-        <li className={'todo'}>{t.title}</li>
-      ))}
+      {
+        props.todos.map(t => <li className={'todo'} key={t.id}>{t.title} !!</li>)
+      }
     </ul>
   );
 };
